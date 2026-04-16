@@ -1,4 +1,7 @@
 # Docker
+- task: NodeTaskRunnerInstaller@0
+  inputs:
+    nodeVersion: '6'
 - task: Docker@2
   inputs:
     containerRegistry: 'devopsacrproject'
